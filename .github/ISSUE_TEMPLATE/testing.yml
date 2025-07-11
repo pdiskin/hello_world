@@ -15,12 +15,6 @@ body:
       label: Name and role of change requestor *
     validations:
       required: true 
- - type: input
-    id: type_chance
-    attributes:
-      label: Type of change ex: Major, Minor, Emergency with brief description of each issue *
-    validations:
-      required: true 
   - type: textarea
     id: project_summary
     attributes:

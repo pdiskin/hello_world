@@ -20,4 +20,3 @@ body:
     attributes:
       label: Name and role of change requestosr *
     validations:
-      required: true     

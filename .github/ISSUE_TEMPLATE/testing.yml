@@ -3,3 +3,95 @@ description: Description of a project for modifying records in bulk
 title: Bulk Metadata Project Intake
 labels: ['bulk-metadata']
 body:
+  - type: markdown
+    attributes:
+      value: "### Bulk Metadata Project Request Form"
+  - type: markdown
+    attributes:
+      value: "#### *(fields with an asterisk are required)*"
+  - type: textarea
+    id: project_summary
+    attributes:
+      label: Summary of the proposed plan *
+    validations:
+      required: true
+  - type: input
+    id: project_lead
+    attributes:
+      label: Project lead *
+    validations:
+      required: true
+  - type: input
+    id: project_reviewer
+    attributes:
+      label: Reviewer *
+    validations:
+      required: true
+  - type: input
+    id: record_count
+    attributes:
+      label: Number of records involved, if known
+  - type: markdown
+    attributes:
+      value: "### Process components (check all that apply):"
+  - type: checkboxes
+    id: download_method
+    attributes:
+      label: "Export records using"
+      options:
+        - label: Alma export job
+        - label: Z39.50/SRU (includes MarcEdit client)
+        - label: OCLC Connexion Client
+        - label: External script (Python, Ruby, XQuery/XSLT, REST APIs)
+        - label: Other (provide details below)
+        - label: N/A
+  - type: checkboxes
+    id: transform_method
+    attributes:
+      label: "Transform records using"
+      options:
+        - label: Alma normalization rule/process
+        - label: Alma job
+        - label: OCLC Connexion Client macro
+        - label: MarcEdit task list
+        - label: External script
+        - label: Other (provide details below)
+        - label: N/A
+  - type: checkboxes
+    id: import_method
+    attributes:
+      label: "Import records using"
+      options:
+        - label: Alma import profile
+        - label: Alma-WorldCat integration
+        - label: Alma-MarcEdit integration
+        - label: OCLC Connexion Client
+        - label: External script
+        - label: Other (provide details below)
+        - label: N/A
+  - type: dropdown
+    id: sandbox_first
+    attributes:
+      label: Test in sandbox first? *
+      description: (Testing in the sandbox should be done whenever possible.  "No" may be selected if the sandbox records are not in the same state as production, or if the project invovles OCLC rather than Alma).
+      options:
+        - "Yes"
+        - "No"
+      default: 0
+    validations:
+      required: true
+  - type: textarea
+    id: update_method_details
+    attributes: 
+      label: Process details
+  - type: checkboxes
+    id: process_tasks
+    attributes:
+      label: Process tasks
+      description: (Check off any tasks that do not apply, e.g. if a sandbox review is not required)
+      options:
+        - label: Run script to transform data (if in external file)
+        - label: Load data/run job in sandbox
+        - label: Review data in sandbox
+        - label: Load data/run job in production
+        - label: Review data in production

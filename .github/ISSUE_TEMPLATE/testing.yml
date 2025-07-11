@@ -15,4 +15,9 @@ body:
       label: Name and role of change requestor *
     validations:
       required: true 
-     
+ - type: input
+    id: requestors
+    attributes:
+      label: Name and role of change requestosr *
+    validations:
+      required: true     

@@ -6,7 +6,7 @@ labels: ['bulk-metadata']
 body:
   - type: markdown
     attributes:
-      value: "### Alma Configuration Changes Template"
+      value: "### Alma Configuration Changes Templates"
   - type: markdown
     attributes:
       value: "#### *(fields with an asterisk are required)*"

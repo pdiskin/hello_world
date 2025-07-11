@@ -9,6 +9,12 @@ body:
   - type: markdown
     attributes:
       value: "#### *(fields with an asterisk are required)*"
+  - type: input
+    id: requestor
+    attributes:
+      label: Name and role of change requestor *
+    validations:
+      required: true 
   - type: textarea
     id: project_summary
     attributes:

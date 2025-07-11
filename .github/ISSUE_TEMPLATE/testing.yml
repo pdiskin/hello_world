@@ -16,12 +16,6 @@ body:
     validations:
       required: true 
   - type: input
-    id: changetype
-    attributes:
-      label: Type of change (ex: Major, Minor, Emergency) with brief description of each issue *
-    validations:
-      required: true 
-  - type: input
     id: project_lead
     attributes:
       label: Project lead *

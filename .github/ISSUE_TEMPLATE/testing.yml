@@ -15,12 +15,12 @@ body:
       label: Name and role of change requestor *
     validations:
       required: true 
-  - type: textarea
-    id: project_summary
+- type: input
+    id: changetype
     attributes:
-      label: Summary of the proposed plan *
+      label: Type of change (ex: Major, Minor, Emergency) with brief description of each issue *
     validations:
-      required: true
+      required: true 
   - type: input
     id: project_lead
     attributes:

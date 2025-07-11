@@ -15,7 +15,7 @@ body:
       label: Name and role of change requestor *
     validations:
       required: true 
-- type: input
+  - type: input
     id: changetype
     attributes:
       label: Type of change (ex: Major, Minor, Emergency) with brief description of each issue *

@@ -1,7 +1,7 @@
 name: Alma Configuration Changes Template
 description: Description of a proposed changes to the configuration in Alma
 title: Alma Configuration Changes Template
-labels: ['bulk-metadata']
+labels: ['config-changes']
 body:
   - type: markdown
     attributes:

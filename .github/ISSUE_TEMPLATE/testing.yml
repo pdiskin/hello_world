@@ -12,7 +12,7 @@ body:
   - type: input
     id: requestor
     attributes:
-      label: Name and role of change requestor *
+      label: Name and role of change requestor 
     validations:
       required: true 
 

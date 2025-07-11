@@ -14,5 +14,10 @@ body:
     attributes:
       label: Name and role of change requestor 
     validations:
-      required: true 
-
+      required: true
+  - type: textarea
+    id: project_summary
+    attributes:
+      label: Summary of the proposed plan
+    validations:
+      required: true      

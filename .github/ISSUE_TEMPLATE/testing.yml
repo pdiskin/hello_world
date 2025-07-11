@@ -1,6 +1,6 @@
 name: Alma Configuration Changes Template
-description: Description of a project for modifying records in bulk
-title: Bulk Metadata Project Intake
+description: Description of a proposed changes to the configuration in Alma
+title: Alma Configuration Changes Template
 labels: ['bulk-metadata']
 body:
   - type: markdown

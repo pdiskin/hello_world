@@ -5,7 +5,7 @@ labels: ['config-changes']
 body:
   - type: markdown
     attributes:
-      value: "### Bulk Metadata Project Request Form"
+      value: "### Alma Configuration Changes"
   - type: markdown
     attributes:
       value: "#### *(fields with an asterisk are required)*"

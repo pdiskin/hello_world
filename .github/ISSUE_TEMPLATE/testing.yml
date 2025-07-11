@@ -1,1 +1,23 @@
-
+name: Alma Configuration Changes Template Do Not Use
+description: Template used to docuement proposed changes to the Alma Configuration
+title: Alma Configuration Changes Template
+labels: ['bulk-metadata']
+body:
+  - type: markdown
+    attributes:
+      value: "### Alma Configuration Changes Template"
+  - type: markdown
+    attributes:
+      value: "#### *(fields with an asterisk are required)*"
+- type: input
+    id: requestor
+    attributes:
+      label: Name and role of change requestor *
+    validations:
+      required: true 
+- type: input
+    id: change_type
+    attributes:
+      label: Type of change (ex: Major, Minor, Emergency) with brief description of each issue *
+    validations:
+      required: true 

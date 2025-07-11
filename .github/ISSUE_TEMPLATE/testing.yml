@@ -33,4 +33,10 @@ body:
       label: Anticpated impact of change
     validations:
       required: true 
+  - type: textarea
+    id: test_plan
+    attributes:
+      label: Pre-implementation test plan
+    validations:
+      required: true       
       

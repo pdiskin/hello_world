@@ -54,7 +54,7 @@ body:
   - type: textarea
     id: post_test_plan
     attributes:
-      label: POst-implementation testing requirements
+      label: Post-implementation testing requirements
     validations:
       required: true       
       

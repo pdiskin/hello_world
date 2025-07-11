@@ -16,8 +16,8 @@ body:
     validations:
       required: true
   - type: textarea
-    id: project_summary
+    id: change_summary
     attributes:
-      label: Summary of the proposed plan
+      label: Justification for Change
     validations:
       required: true      

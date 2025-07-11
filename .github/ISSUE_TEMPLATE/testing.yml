@@ -18,7 +18,7 @@ body:
   - type: input
     id: change_type
     attributes:
-      label: What kind of change *
+      label: What kind of change
     validations:
       required: true       
   - type: textarea
@@ -26,4 +26,11 @@ body:
     attributes:
       label: Justification for Change
     validations:
-      required: true      
+      required: true    
+  - type: textarea
+    id: change_impact
+    attributes:
+      label: Anticpated impact of change
+    validations:
+      required: true 
+      

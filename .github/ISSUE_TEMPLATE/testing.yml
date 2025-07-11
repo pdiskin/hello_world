@@ -15,6 +15,12 @@ body:
       label: Name and role of change requestor 
     validations:
       required: true
+  - type: input
+    id: change_type
+    attributes:
+      label: What kind of change *
+    validations:
+      required: true       
   - type: textarea
     id: change_summary
     attributes:

@@ -50,5 +50,11 @@ body:
     attributes:
       label: Approvals (may vary by the type of change)
     validations:
-      required: true          
+      required: true     
+  - type: textarea
+    id: post_test_plan
+    attributes:
+      label: POst-implementation testing requirements
+    validations:
+      required: true       
       

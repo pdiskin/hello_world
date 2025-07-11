@@ -18,7 +18,7 @@ body:
   - type: input
     id: changetype
     attributes:
-      label: Type of change (ex: Major, Minor, Emergency) with brief description of each issue *
+      label: Type of change ex: Major, Minor, Emergency with brief description of each issue *
     validations:
       required: true 
   - type: input
